@@ -8,7 +8,7 @@ export default defineConfig({
     lib: {
       entry: resolve(__dirname, "src/index.ts"),
       formats: ["es", "cjs"],
-      name: "@kinde/types",
+      name: "@kinde/core",
       fileName: "index",
     },
     target: "esnext",
